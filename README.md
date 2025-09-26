@@ -1,4 +1,3 @@
-```markdown
 # serialCodigo
 
 Proyecto C# (Console App) que lee datos de un Arduino por puerto serie. Incluye handshake para Arduino Uno.
@@ -12,7 +11,7 @@ Estructura propuesta:
 - README.md
 
 Cómo probar localmente
-1. Conecta tu Arduino Uno y sube el sketch `arduino/ArduinoLectura_Handshake.ino` desde Arduino IDE.
+1. Conecta tu Arduino Uno y sube el sketch `arduino/ArduinoLectura_Handshake_version2.ino` desde Arduino IDE.
 2. En tu PC, abre el proyecto en Visual Studio o usa la CLI `dotnet`.
 3. Para ejecutar con dotnet run:
    dotnet run -- COM3 9600
